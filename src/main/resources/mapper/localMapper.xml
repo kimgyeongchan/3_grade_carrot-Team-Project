@@ -12,7 +12,6 @@
         </collection>
     </resultMap>
 
-    <!--    카테고리별 조회-->
     <select id="findPostWithLocal" resultMap="PostLocalMap">
         select p.id, l.city, l.district, l.neighborhood, p.title
         from local l
